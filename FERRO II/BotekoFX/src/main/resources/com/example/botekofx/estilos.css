@@ -1,0 +1,108 @@
+/* Seus estilos existentes ... */
+.date-picker{
+    -fx-font-size:14px;
+}
+.table-cell{
+    -fx-font-size:14px;
+}
+.list-cell{
+    -fx-font-size:14px;
+}
+
+/* --- Paleta de cores mais suave para seleção de itens --- */
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+  -fx-background-color: #A9D0F5; /* Azul claro e suave */
+  -fx-text-fill: black;
+}
+
+.list-cell:odd {
+  -fx-background-color: white;
+}
+.list-cell:filled:hover {
+  -fx-background-color: #D6EAF8; /* Um azul ainda mais claro para o hover */
+  -fx-text-fill: black;
+}
+
+/* --- Novos estilos para a tela principal --- */
+
+/* Estilo para o fundo da tela principal (AnchorPane) */
+.main-bg {
+    -fx-background-color: #FFFFFF; /* Fundo branco para uma aparência clean */
+}
+
+/* Estilo para o título de boas-vindas */
+.welcome-title {
+    -fx-font-size: 38px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif; /* Fonte moderna e legível */
+    -fx-fill: #2c3e50; /* Cor de texto (azul escuro/cinza) */
+}
+
+/* Estilo para os botões principais (Cadastro, Comanda) */
+.main-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #34495e; /* Azul acinzentado escuro */
+    -fx-text-fill: white;
+    -fx-padding: 12px 24px;
+    -fx-background-radius: 5px; /* Bordas levemente arredondadas */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 4, 0, 1, 1);
+    -fx-cursor: hand;
+}
+
+.main-button:hover {
+    -fx-background-color: #2c3e50; /* Tom mais escuro no hover */
+}
+
+/* Estilo para o botão de Ajuda */
+.help-button {
+    -fx-font-size: 12px;
+    -fx-background-color: #bdc3c7; /* Cinza claro */
+    -fx-text-fill: #2c3e50; /* Texto escuro */
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.help-button:hover {
+    -fx-background-color: #a7b0b5; /* Cinza um pouco mais escuro no hover */
+}
+
+.comanda-list-panel {
+    -fx-background-color: #f8f9fa; /* Um cinza muito claro para o painel da lista */
+    -fx-border-color: #e9ecef;
+    -fx-border-width: 0 1 0 0; /* Borda apenas na direita */
+}
+
+.form-panel {
+    -fx-background-color: #ffffff; /* Fundo branco para a área de formulário */
+}
+
+.header-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40; /* Cor de texto escura */
+    -fx-padding: 5 0 5 0;
+    -fx-border-color: transparent transparent #dee2e6 transparent; /* Linha sutil abaixo */
+    -fx-border-width: 1px;
+}
+
+.total-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 5 0 0;
+}
+
+.total-field {
+    -fx-background-color: -fx-control-inner-background;
+    -fx-font-size: 14px;
+    -fx-text-fill: #28a745; /* Verde para o total */
+    -fx-border-color: transparent;
+}
+
+.fechar-comanda-button {
+    -fx-background-color: #28a745; /* Botão de fechar comanda em verde */
+}
+
+.fechar-comanda-button:hover {
+    -fx-background-color: #218838; /* Verde mais escuro no hover */
+}
